@@ -1,0 +1,43 @@
+body{
+text-align: center;
+background-color: darkkhaki;
+}
+
+div{
+	text-align: left;	
+    padding: 10px 10px 10px 10px;
+    border: 2px solid brown; 
+    margin-left:  20%;  
+    margin-right: 20%;
+    background-color: White; 
+}
+
+h1{
+	font-family: Georgia , sans-serif;
+	font-size: 70px;
+}
+h1::first-letter{
+
+	color:   brown;
+	font-size: 90px;
+}
+
+p::first-line{
+	color: blue;
+	word-spacing :30px;
+}
+
+p::before{
+content: '*** ';
+}
+p::after{
+content:'***'
+}
+
+::marker{
+color: blue;
+}
+
+p::selection{
+	background-color: pink;
+}
